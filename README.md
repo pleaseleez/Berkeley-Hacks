@@ -2,4 +2,4 @@
 
 This is the website for the Berkeley Hacks hackathon.
 
-Web fonts and links not included.
+Web fonts not included (because that would probably be illegal).

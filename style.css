@@ -4,6 +4,13 @@ body {
 	min-width:970px;
 }
 
+@font-face{ 
+	font-family: 'Meta';
+	src: url('MetaScWeb-Medium.eot');
+	src: url('MetaScWeb-Medium.eot?#iefix') format('embedded-opentype'),
+	     url('MetaScWeb-Medium.woff') format('woff');
+}
+
 a, a:hover, a:active, a:visited {
 	text-decoration:none;
 	color:#3fd183;
@@ -55,12 +62,14 @@ div#header {
 }
 
 div#header h1 {
+	font-family:'Meta', sans-serif;
 	font-size:100px;
 	line-height:60px;
 	/* web font family here */
 	margin-bottom:30px;
 	margin-top:270px;
 	display:inline-block;
+	letter-spacing:.02em;
 }
 
 div#header span#date {
@@ -152,6 +161,12 @@ div#sponsors div#logobox {
 	height:160px;
 	width:100%;
 	margin-bottom:25px;
+}
+
+div.logo a {
+	display:block;
+	width:100%;
+	height:100%;
 }
 
 div#sponsors div#logobox div#klogo {

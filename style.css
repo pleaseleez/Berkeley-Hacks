@@ -7,12 +7,18 @@ body {
 @font-face{ 
 	font-family: 'Meta';
 	src:
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot');
+	 url(
+	 	'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot'
+	 );
 	src:
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot?#iefix')
-		format('embedded-opentype'),
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.woff')
-		format('woff');
+	 url(
+	 	'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot?#iefix'
+	 )
+	 format('embedded-opentype'),
+	 url(
+	 	'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.woff'
+	 )
+	 format('woff');
 }
 
 a, a:hover, a:active, a:visited {
@@ -47,7 +53,9 @@ div#footer_twitter .inner {
 div#header {
 	height:800px;
 	background-image:
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bg_berkhacks.jpg');
+		url(
+			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bg_berkhacks.jpg'
+		);
 	background-size:100% auto;
 	background-height-min:800px;
 	background-position:center;
@@ -182,7 +190,9 @@ div#sponsors div#logobox div#klogo {
 	margin-top:-30px;
 	left:30px;
 	background-image:
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo.png');
+		url(
+			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo.png'
+		);
 }
 
 div#sponsors div#logobox div#bsclogo {
@@ -194,7 +204,9 @@ div#sponsors div#logobox div#bsclogo {
 	left:50%;
 	margin-left:-120px;
 	background-image:
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bsc_logo.jpg');
+		url(
+			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bsc_logo.jpg'
+		);
 }
 
 div#sponsors div#logobox div#sdlogo {
@@ -205,7 +217,9 @@ div#sponsors div#logobox div#sdlogo {
 	margin-top:-46px;
 	right:30px;
 	background-image:
-		url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/skydeck_logo.png');
+		url(
+			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/skydeck_logo.png'
+		);
 }
 
 /* retina kloudless logo */
@@ -214,7 +228,9 @@ div#sponsors div#logobox div#sdlogo {
 (min-resolution: 192dpi) {
 	div#sponsors div#logobox div#klogo {
 		background-image:
-			url('https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo%402x.png');
+			url(
+				'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo%402x.png'
+			);
 	}
 }
 

@@ -1,69 +1,69 @@
 body {
-	background-color:#424f5d;
-	color:white;
-	min-width:970px;
+    background-color:#424f5d;
+    color:white;
+    min-width:970px;
 }
 
 @font-face{ 
-	font-family: 'Meta';
-	src:
-	 url(
-	 	'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot'
-	 );
-	src:
-	 url(
-	 	'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot?#iefix'
-	 )
-	 format('embedded-opentype'),
-	 url(
-	 	'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.woff'
-	 )
-	 format('woff');
+    font-family: 'Meta';
+    src:
+     url(
+        'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot'
+     );
+    src:
+     url(
+        'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.eot?#iefix'
+     )
+     format('embedded-opentype'),
+     url(
+        'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/fonts/MetaScWeb-Medium.woff'
+     )
+     format('woff');
 }
 
 a, a:hover, a:active, a:visited {
-	text-decoration:none;
-	color:#3fd183;
+    text-decoration:none;
+    color:#3fd183;
 }
 
 div#header_twitter {
-	width:930px;
-	margin:0 auto;
-	position:relative;
+    width:930px;
+    margin:0 auto;
+    position:relative;
 }
 
 div#header_twitter .inner {
-	position:absolute;
-	right:0;
-	top:20px;
+    position:absolute;
+    right:0;
+    top:20px;
 }
 
 div#footer_twitter {
-	width:930px;
-	margin:0 auto;
-	position:relative;
+    width:930px;
+    margin:0 auto;
+    position:relative;
 }
 
 div#footer_twitter .inner {
-	position:absolute;
-	right:0;
-	bottom:20px;
+    position:absolute;
+    right:0;
+    bottom:20px;
 }
 
 div#header {
-	height:800px;
-	background-image:
-		url(
-			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bg_berkhacks.jpg'
-		);
-	background-size:100% auto;
-	background-height-min:800px;
-	background-position:center;
-	background-repeat:no-repeat;
-	margin-bottom:100px;
-	text-align:center;
-	text-shadow:rgba(0,0,0,.3) 0 2px 0;
-	text-shadow-blend-mode:multiply;
+    height:800px;
+    background-image:
+        url(
+            'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bg_berkhacks.jpg'
+        );
+    background-size:100% auto;
+    background-height-min:800px;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin-bottom:100px;
+    text-align:center;
+    text-shadow:rgba(0,0,0,.3) 0 2px 0;
+    text-shadow-blend-mode:multiply;
 }
 
 @media (max-width: 1440px) {
@@ -75,163 +75,163 @@ div#header {
 }
 
 div#header h1 {
-	font-family:'Meta', sans-serif;
-	font-size:100px;
-	line-height:60px;
-	/* web font family here */
-	margin-bottom:30px;
-	margin-top:270px;
-	display:inline-block;
-	letter-spacing:.02em;
+    font-family:'Meta', sans-serif;
+    font-size:100px;
+    line-height:60px;
+    /* web font family here */
+    margin-bottom:30px;
+    margin-top:270px;
+    display:inline-block;
+    letter-spacing:.02em;
 }
 
 div#header span#date {
-	font-size:20px;
-	margin-bottom:45px;
-	display:block;
+    font-size:20px;
+    margin-bottom:45px;
+    display:block;
 }
 
 div#header a#register {
-	background-color:#ff662e;
-	-webkit-box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,.20);
-	box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,.20);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	color:white;
-	font-size:24px;
-	font-weight:bold;
-	text-shadow:#cc5225 0 1px 0;
-	padding:15px 30px;
+    background-color:#ff662e;
+    -webkit-box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,.20);
+    box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,.20);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    text-shadow:#cc5225 0 1px 0;
+    padding:15px 30px;
 }
 
 div#content {
-	width:930px;
-	margin:0 auto;
-	position:relative;
+    width:930px;
+    margin:0 auto;
+    position:relative;
 }
 
 div#description {
-	background-color:#3b97ff;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	font-weight:bold;
-	font-size:40px;
-	padding:55px 82px;
-	text-shadow:rgba(0,0,0,.2) 0 2px 0;
-	text-shadow-blend-mode:multiply;
-	margin-bottom:100px;
+    background-color:#3b97ff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight:bold;
+    font-size:40px;
+    padding:55px 82px;
+    text-shadow:rgba(0,0,0,.2) 0 2px 0;
+    text-shadow-blend-mode:multiply;
+    margin-bottom:100px;
 }
 
 div.section {
-	border-top:20px solid white;
-	padding-top:20px;
-	margin:0;
-	text-shadow:none;
+    border-top:20px solid white;
+    padding-top:20px;
+    margin:0;
+    text-shadow:none;
 }
 
 div.section h3 {
-	font-size:28px;
-	font-weight:bold;
-	margin-bottom:10px;
-	margin-top:0;
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:10px;
+    margin-top:0;
 }
 
 div.section p {
-	font-size:20px;
-	line-height:28px;
-	margin:0;
+    font-size:20px;
+    line-height:28px;
+    margin:0;
 }
 
 div#information {
-	border-top-color:#3fd183;
-	width:610px;
-	float:left;
+    border-top-color:#3fd183;
+    width:610px;
+    float:left;
 }
 
 div#location {
-	border-top-color:#eaac00;
-	width:290px;
-	float:right;
+    border-top-color:#eaac00;
+    width:290px;
+    float:right;
 }
 
 div#sponsors {
-	border-top-color:#7e93ac;
-	margin-top:100px;
-	margin-bottom:100px;
+    border-top-color:#7e93ac;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 
 div#sponsors h3 {
-	margin-bottom:20px;
+    margin-bottom:20px;
 }
 
 div#sponsors div#logobox {
-	position:relative;
-	background-color:white;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	height:160px;
-	width:100%;
-	margin-bottom:25px;
+    position:relative;
+    background-color:white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height:160px;
+    width:100%;
+    margin-bottom:25px;
 }
 
 div.logo a {
-	display:block;
-	width:100%;
-	height:100%;
+    display:block;
+    width:100%;
+    height:100%;
 }
 
 div#sponsors div#logobox div#klogo {
-	position:absolute;
-	height:50px;
-	width:235px;
-	top:50%;
-	margin-top:-30px;
-	left:30px;
-	background-image:
-		url(
-			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo.png'
-		);
+    position:absolute;
+    height:50px;
+    width:235px;
+    top:50%;
+    margin-top:-30px;
+    left:30px;
+    background-image:
+        url(
+            'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo.png'
+        );
 }
 
 div#sponsors div#logobox div#bsclogo {
-	position:absolute;
-	height:61px;
-	width:250px;
-	top:50%;
-	margin-top:-35px;
-	left:50%;
-	margin-left:-120px;
-	background-image:
-		url(
-			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bsc_logo.jpg'
-		);
+    position:absolute;
+    height:61px;
+    width:250px;
+    top:50%;
+    margin-top:-35px;
+    left:50%;
+    margin-left:-120px;
+    background-image:
+        url(
+            'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/bsc_logo.jpg'
+        );
 }
 
 div#sponsors div#logobox div#sdlogo {
-	position:absolute;
-	height:92px;
-	width:245px;
-	top:50%;
-	margin-top:-46px;
-	right:30px;
-	background-image:
-		url(
-			'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/skydeck_logo.png'
-		);
+    position:absolute;
+    height:92px;
+    width:245px;
+    top:50%;
+    margin-top:-46px;
+    right:30px;
+    background-image:
+        url(
+            'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/skydeck_logo.png'
+        );
 }
 
 /* retina kloudless logo */
 @media
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) {
-	div#sponsors div#logobox div#klogo {
-		background-image:
-			url(
-				'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo%402x.png'
-			);
-	}
+    div#sponsors div#logobox div#klogo {
+        background-image:
+            url(
+                'https://s3-us-west-2.amazonaws.com/static-assets.kloudless.com/static/berkeleyhacks/kloudless_logo%402x.png'
+            );
+    }
 }
 
 /* micro clearfix hack http://nicolasgallagher.com/micro-clearfix-hack/ */

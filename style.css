@@ -21,9 +21,12 @@ body {
      format('woff');
 }
 
-a, a:hover, a:active, a:visited {
+a, a:hover, a:visited {
     text-decoration:none;
     color:#3fd183;
+}
+a:hover {
+    color:#45e590;
 }
 
 div#header_twitter {
@@ -93,15 +96,26 @@ div#header span#date {
 
 div#header a#register {
     background-color:#ff662e;
-    -webkit-box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,.20);
-    box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,.20);
+    -webkit-box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,0.2);
+    box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 #ff853c, 0 2px 0 0 rgba(0,0,0,0.2);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     color:white;
     font-size:24px;
     font-weight:bold;
-    text-shadow:#cc5225 0 1px 0;
+    text-shadow:0 1px 0 rgba(0,0,0,0.2);
     padding:15px 30px;
+}
+
+div#header a#register:hover {
+    text-decoration:none;
+    background-color:#ff713d;
+}
+
+div#header a#register:active {
+    background-color:#ff662e;
+    -webkit-box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 rgba(0,0,0,0.2), 0 1px 0 0 rgba(0,0,0,0.1);
+    box-shadow:inset 0 1px 0 0 #ff662e, inset 0 3px 0 0 rgba(0,0,0,0.2), 0 1px 0 0 rgba(0,0,0,0.1);
 }
 
 div#content {
